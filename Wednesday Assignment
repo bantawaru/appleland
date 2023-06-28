@@ -1,0 +1,33 @@
+john=3
+mary=5
+adam=6
+total_apples=john+mary+adam
+print(total_apples)
+print("Total number of apples:", total_apples)
+
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = (miles)*1.61 # 1 mile= 1.61 km
+kilometers_to_miles = (kilometers)/1.61 # 1.61km=1 mile
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers") #miles=variable, miles is=string, miles_to_kilometers= variable, round(2)=round upto 2 decimal places, kilometers=strings
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles") #miles=variable, miles is=string, Kilometers_to_miles= variable, round(2)=round upto 2 decimal places, miles=strings
+
+
+
+x = 1 # let value of x be 1
+x = float(x)
+y=3*x**3-2*x**2+3*x-1 #3x3 - 2x2 + 3x - 1
+print("y =", y)
+
+x = 0 # let value of x be 0
+x = float(x)
+y=3*x**3-2*x**2+3*x-1 #3x3 - 2x2 + 3x - 1
+print("y =", y)
+
+x = -1 # let value of x be -1
+x = float(x)
+y=3*x**3-2*x**2+3*x-1 #3x3 - 2x2 + 3x - 1
+print("y =", y)
